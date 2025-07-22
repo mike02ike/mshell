@@ -1,6 +1,13 @@
 import os
 import sys
 
+def get_wd():
+    try:
+        return os.getcwd()
+    except OSError as e:
+        print(f"Error getting current working directory: {e}")
+        return None
+
 def process_input(user_input):
     if " | " in user_input:
         handle_pipe(user_input)
@@ -163,7 +170,7 @@ def main():
         return
     while True:
         sys.stdout.flush()
-        user_input = input("\nmshell$ ")
+        user_input = input("\n~" + get_wd() + " mshell$ ").strip()
         
         if user_input == "quit":
             break
