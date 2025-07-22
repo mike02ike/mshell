@@ -1,0 +1,51 @@
+Commands:
+
+a)
+ls
+ls -a
+touch hello_world
+echo "hello world"
+cat /usr/bin/grep
+mkdir testing
+touch testing/new_file
+
+c)
+PS1 = "currently in: "
+echo "$$$"
+
+d)
+python spinner.py 100000000&
+
+e) sh counting.sh
+OR
+e) sh commands.sh
+
+f) 
+python ../testing.py 
+
+g) turtle testing
+
+h) rm testing
+
+i) cd testing
+
+j) python spinner.py 1000 > output.txt
+
+k) python pyprogram.py < input.txt
+
+l) ls | grep testing/
+
+
+Bonus)
+
+ls -l | grp py > result.txt
+
+
+
+
+
+
+
+
+
+b) exit

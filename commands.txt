@@ -1,0 +1,6 @@
+# This is a comment and should be ignored
+echo "Hello, world!"
+ls
+# Another comment line
+pwd
+invalid_command
